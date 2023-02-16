@@ -12,7 +12,7 @@ public class CombineStringsTest {
         String input1 = "abc";
         String input2 = "xyz";
         String expected = "abcxyz";
-        String actual = cs.combine(input1, input2);
+        String actual = cs.combine(input1,input2);
         Assert.assertEquals(expected,actual);
     }
     /**
